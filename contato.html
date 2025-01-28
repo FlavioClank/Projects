@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contato.css">
+    <title>Contato</title>
+</head>
+
+
+
+<body>
+    
+    <div id="banner">
+        <div class="barramenu">
+            <header>
+                <img id="logo" src="./images batman.jpeg" />
+                <nav>
+                    <ul>
+                        <a href="./index.html">
+                            <li>Home</li>
+                        </a>
+    
+                        <a href="./contato.html">
+                            <li>Contato</li>
+                        </a>
+    
+                        <a href="./fotos.html">
+                            <li>Fotos</li>
+                        </a>
+                        
+                        <a href="./comentarios.html">
+                            <li>Comentarios</li>
+                        </a>
+                    </ul>
+                </nav>
+            </header>
+            
+        </div>
+        
+            <div class="contact-form-container">
+                <h2>Contate-nos</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" 
+                            name="name" 
+                            placeholder="Seu Nome" required>
+                        <span class="error-message" id="nameError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" 
+                            name="email" 
+                            placeholder="Seu Email" required>
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefone</label>
+                        <input type="tel" id="phone" 
+                            name="phone" 
+                            placeholder="Numero de telefone" required>
+                        <span class="error-message" id="phoneError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" 
+                            name="message" 
+                            placeholder="Sua Mensagem" 
+                            rows="5" required></textarea>
+                        <span class="error-message" 
+                            id="messageError"></span>
+                    </div>
+                    <button type="submit" 
+                            class="submit-button">
+                      Enviar
+                    </button>
+                </form>
+            </div>
+</div>
+
+
+
+    
+</body>
+
+
+
+
+
+</html>
